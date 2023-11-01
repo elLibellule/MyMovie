@@ -1,0 +1,17 @@
+import SearchResults from "../../(components)/SearchResults";
+
+function GenreIdPage({
+  params: { id, lang },
+  searchParams,
+}: {
+  params: { id: string; lang: string };
+  searchParams: {
+    sort_by: string;
+    "release_date.gte": string;
+    "release_date.lte": string;
+  };
+}) {
+  return <SearchResults lang={lang} genreId={id} searchParams={searchParams} />;
+}
+
+export default GenreIdPage;

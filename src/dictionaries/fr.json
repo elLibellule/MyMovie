@@ -1,0 +1,35 @@
+{
+  "header": {
+    "nav": {
+      "series": "Séries",
+      "movies": "Films",
+      "searchBar": {
+        "placeHolder": "Rechercher un titre"
+      }
+    }
+  },
+
+  "popular": {
+    "title": "Les plus populaires"
+  },
+  "genres": {
+    "title": "Parcourir par genres"
+  },
+
+  "asideBar": {
+    "title": "Tout les",
+    "filter": {
+      "title": "Filtrer",
+      "form": {
+        "date": "Date de sortie",
+        "order": "Trier par",
+        "orderByOption": {
+          "popularity": "Popularité",
+          "note": "Note",
+          "nbrOfNote": "Nombre de Note"
+        },
+        "button": "Rechercher"
+      }
+    }
+  }
+}

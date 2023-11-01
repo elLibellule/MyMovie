@@ -1,0 +1,25 @@
+.searchResults {
+  position: absolute;
+  z-index: 3;
+  background-color: var(--white-color);
+  top: 45px;
+  padding: 10px;
+  box-shadow: var(--primary-box-shadow);
+  font-family: var(--font-montserrat);
+  > div > a {
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    img {
+      box-shadow: var(--primary-box-shadow);
+    }
+
+    p {
+      margin-left: 10px;
+      color: black;
+      font-size: 13px;
+      font-weight: 500;
+    }
+  }
+}
